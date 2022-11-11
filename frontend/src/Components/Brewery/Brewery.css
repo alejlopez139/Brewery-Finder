@@ -1,0 +1,41 @@
+/* .brewery {
+    text-align: center;
+} */
+
+.brewery--hero {
+    background-image: url(https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    opacity: 0.4;
+}
+
+.brewery--title {
+    text-align: center;
+    color: #4F453B;
+}
+
+.brewery--title-container {
+    position: relative;
+    top: -175px;
+}
+
+.brewery--infobox {
+    position: relative;
+    top: -150px;
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    padding: 10px 0;
+    background-color: #fff;
+    border: 2px solid #4F453B;
+    border-radius: 5px;
+}
+
+.brewery--beerList {
+    position: relative;
+    top: -100px;
+    width: 600px;
+    margin: 0 auto;
+}

@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #4F453B;
+    width: 100%;
+    height: 60px;
+}
+
+.navbar--container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.navbar--link-container {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar--link {
+    color: #D5CEC3;
+    font-size: 1.25rem;
+}
+
+.navbar--link:hover {
+    color: #FAAD1F;
+}
+
+.navbar--link:visited {
+    color: #D5CEC3;
+}

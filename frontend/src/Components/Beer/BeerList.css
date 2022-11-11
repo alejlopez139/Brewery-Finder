@@ -1,0 +1,30 @@
+.bmenu--beer{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-bottom: 1px solid #74501C;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bmenu--beertitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: #74501C;
+    margin-right: 20px;
+}
+
+.bmenu--beerdetails {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 1.12rem;
+}
+
+.bmenu--link {
+    color: #74501C;
+    text-decoration: none;
+}
+
+.bmenu--link:hover {
+    color: #FAAD1F;
+}

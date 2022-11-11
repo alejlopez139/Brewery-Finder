@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Slabo 27px', serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #4F453B;
+  }
+  
+  
+  .hero-text {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .button-filled {
+    background-color: #4F453B;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.75rem;
+  }
+  
+  .button-filled:hover {
+    background-color: #FAAD1F;
+  }
+  
+  .button-unfilled {
+    background-color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #4F453B;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #4F453B;
+    font-size: 0.75rem;
+  }
+  
+  .button-unfilled:hover {
+    border: 2px solid #FAAD1F;
+    color: #FAAD1F;
+  }
+  
+  input {
+    border: 2px solid #4F453B;
+    font-size: 0.85rem;
+    color: #4F453B;
+  }
+  
+  input::placeholder {
+    color: #4F453B;
+    opacity: 0.75;
+  }
+  
+  .link {
+    margin: 0 5px;
+    color: #4F453B;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .link:hover {
+    color: #FAAD1F;
+  }
